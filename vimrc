@@ -26,7 +26,6 @@ Bundle 'surround.vim'
 Bundle 'Tagbar'
 Bundle 'tComment'
 Bundle 'vim-flake8'
-Bundle 'YankRing.vim'
 
 syntax on
 filetype plugin indent on
