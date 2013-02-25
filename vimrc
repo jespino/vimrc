@@ -10,8 +10,6 @@ set nocompatible
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-source ~/.vim/bundles.vim
-
 syntax on
 filetype plugin indent on
 
@@ -29,9 +27,6 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 au InsertLeave,BufWinEnter * match ExtraWhitespace /\s\+$/
 au ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
-" Abbreviations
-abbreviate _pdb import pdb; pdb.set_trace()
-abbreviate _ipdb import ipdb; ipdb.set_trace()
-
-" Spell cheking enabled by default
-map <F6> <Esc>:setlocal spell spelllang=es<CR>
+source ~/.vim/bundles.vim
+source ~/.vim/abbreviations.vim
+source ~/.vim/bindings.vim
