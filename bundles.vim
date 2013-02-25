@@ -1,7 +1,6 @@
 " Bundels declaration
 Bundle 'ack.vim'
 Bundle 'AutoComplPop'
-Bundle 'buftabs'
 Bundle 'ctrlp.vim'
 Bundle 'EasyMotion'
 Bundle 'fugitive.vim'
