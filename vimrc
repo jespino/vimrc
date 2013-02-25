@@ -59,6 +59,7 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_open_new_file = 't'
 let g:ctrlp_open_multiple_files = 't'
+let g:ctrlp_max_depth = 40
 let g:ctrlp_max_height = '20'
 let g:ctrlp_us_caching = 1
 let g:ctrlp_clear_cache_on_exit = 0
