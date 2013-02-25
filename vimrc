@@ -87,11 +87,3 @@ map <F8> <ESC>:TagbarToggle<CR>
 
 " YankRing keybinding
 nnoremap <silent> <F10> :YRShow<CR>
-
-" Wokmarks keybinding
-map tk <Plug>PrevMarkWok
-map tj <Plug>NextMarkWok
-nmap tt <Plug>ToggleMarkWok
-nmap tm <Plug>SetMarkWok
-map tD <Plug>KillMarksWok
-nnoremap <silent> tl :marks abcdefghijklmnopqrstuvwxyz<CR>
