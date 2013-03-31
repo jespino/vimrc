@@ -15,6 +15,7 @@ Bundle 'Tagbar'
 Bundle 'tComment'
 Bundle 'vim-flake8'
 Bundle 'wokmarks.vim'
+Bundle 'rebtags'
 
 " Bundels Configuration
 

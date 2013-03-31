@@ -17,3 +17,6 @@ noremap <C-right> :bnext<CR>
 
 " Tagbar keybinding
 map <F8> <ESC>:TagbarToggle<CR>
+
+" RebTags keybinding
+map <F9> <ESC>:RebuildTags<CR>
