@@ -7,6 +7,7 @@ filetype plugin on
 
 set nocompatible
 
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim/
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -30,3 +31,6 @@ au ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 source ~/.vim/bundles.vim
 source ~/.vim/abbreviations.vim
 source ~/.vim/bindings.vim
+
+set laststatus=2 " Always display the statusline in all windows
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
