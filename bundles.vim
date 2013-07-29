@@ -3,7 +3,7 @@ Bundle 'ack.vim'
 Bundle 'AutoComplPop'
 Bundle 'ctrlp.vim'
 Bundle 'EasyMotion'
-Bundle 'fugitive.vim'
+Bundle 'tpope/vim-fugitive'
 Bundle 'Gundo'
 Bundle 'vim-less'
 Bundle 'loremipsum'
@@ -16,7 +16,8 @@ Bundle 'tComment'
 Bundle 'vim-flake8'
 Bundle 'wokmarks.vim'
 Bundle 'rebtags'
-Bundle 'powerline'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'atourino/jinja.vim'
 
 " Bundels Configuration
 
@@ -37,3 +38,9 @@ let g:EasyMotion_leader_key = '\'
 
 " Flake 8 Configuration
 let g:flake8_max_line_length = 120
+
+" Vim-Coffee-Script
+autocmd BufNewFile,BufRead *.coffee set filetype=coffee
+
+" Jinja
+autocmd BufNewFile,BufRead *.jinja set filetype=jinja
