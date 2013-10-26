@@ -18,6 +18,7 @@ Bundle 'wokmarks.vim'
 Bundle 'rebtags'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'atourino/jinja.vim'
+Bundle 'bling/vim-airline'
 
 " Bundels Configuration
 
@@ -38,6 +39,9 @@ let g:EasyMotion_leader_key = '\'
 
 " Flake 8 Configuration
 let g:flake8_max_line_length = 120
+
+" Airline fonts
+let g:airline_powerline_fonts = 1
 
 " Vim-Coffee-Script
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
