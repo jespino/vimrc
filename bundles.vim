@@ -21,6 +21,9 @@ Bundle 'rebtags'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'atourino/jinja.vim'
 Bundle 'bling/vim-airline'
+Bundle 'rdolgushin/groovy.vim'
+Bundle 'hlint'
+Bundle 'taurenchieftain/vim-vala'
 
 " Bundels Configuration
 
