@@ -4,8 +4,8 @@ Bundle 'AutoComplPop'
 Bundle 'ctrlp.vim'
 Bundle 'EasyMotion'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-fireplace'
 Bundle 'airblade/vim-gitgutter'
-Bundle 'airblade/vim-rooter'
 Bundle 'Gundo'
 Bundle 'vim-less'
 Bundle 'loremipsum'
@@ -24,6 +24,8 @@ Bundle 'bling/vim-airline'
 Bundle 'rdolgushin/groovy.vim'
 Bundle 'hlint'
 Bundle 'taurenchieftain/vim-vala'
+Bundle 'oplatek/Conque-Shell'
+Bundle 'linediff.vim'
 
 " Bundels Configuration
 

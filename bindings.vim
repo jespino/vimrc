@@ -19,7 +19,7 @@ noremap <C-right> :bnext<CR>
 map <F8> <ESC>:TagbarToggle<CR>
 
 " RebTags keybinding
-map <F9> <ESC>:RebuildTags<CR>
+"map <F9> <ESC>:RebuildTags<CR>
 
 " Disable the current highlighted search
 nnoremap <leader><space> :nohlsearch<CR>
@@ -30,3 +30,6 @@ nmap gV `[v`]
 " Edit my vimrc
 nnoremap <leader>ev :vsp ~/.vimrc<CR>
 nnoremap <leader>sv :source ~/.vimrc<CR>
+
+" jk as <ESC>
+inoremap jk <ESC>

@@ -10,6 +10,7 @@ set t_Co=256
 set background=dark
 set lazyredraw
 set hlsearch
+let mapleader = " "
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
