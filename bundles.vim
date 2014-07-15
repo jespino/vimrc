@@ -11,7 +11,7 @@ Bundle 'vim-less'
 Bundle 'loremipsum'
 Bundle 'matchit.zip'
 Bundle 'snipMate'
-Bundle 'sparkup'
+Bundle 'tristen/vim-sparkup'
 Bundle 'surround.vim'
 Bundle 'Tagbar'
 Bundle 'tComment'
@@ -26,6 +26,7 @@ Bundle 'hlint'
 Bundle 'taurenchieftain/vim-vala'
 Bundle 'oplatek/Conque-Shell'
 Bundle 'linediff.vim'
+Bundle 'digitaltoad/vim-jade'
 
 " Bundels Configuration
 
